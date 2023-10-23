@@ -27,6 +27,16 @@ return new class extends Migration
         'email'=> 'valaki@gmail.com',
         'password'=>'valaki',
       ]);
+      User::create([
+        'name'=> 'Bárki',
+        'email'=> 'barki@gmail.com',
+        'password'=>'valaki',
+      ]);
+      User::create([
+        'name'=> 'Akárki',
+        'email'=> 'akarki@gmail.com',
+        'password'=>'valaki',
+      ]);
     }
 
     /**

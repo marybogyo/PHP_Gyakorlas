@@ -23,11 +23,12 @@ return new class extends Migration
             'author'=> 'Asimov',
             'title'=> 'Alapítvány',
             'pieces'=> 2
-        ])
+        ]);
         Book::create([
             'author' => 'Kafka', 
             'title' => 'A per', 
-            'pieces' => 5]);   
+            'pieces' => 5
+        ]);   
         Book::create([
             'author' => 'Marquez', 
             'title' => 'Száz év magány', 

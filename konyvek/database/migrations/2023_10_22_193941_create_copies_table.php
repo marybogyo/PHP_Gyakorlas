@@ -21,15 +21,15 @@ return new class extends Migration
         Copy::create([
             'book_id'=>1,
             'user_id'=>1
-        ])
+        ]);
         Copy::create([
             'book_id'=>2,
             'user_id'=>2
-        ])
+        ]);
         Copy::create([
             'book_id'=>3,
             'user_id'=>3
-        ])
+        ]);
     }
 
     /**

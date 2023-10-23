@@ -14,5 +14,5 @@ class Book extends Model
         'author',
         'title',
         'pieces',
-    ]
+    ];
 }
